@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="http://stckpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>meron's homepage</title>
+        <script>
+            function blink()
+            {
+                let arrowr = document.queryselector('#arrowright');
+                if (arrowr.style.visibility === 'hidden')
+                {
+                    arrowr.style.visibility = 'visible';
+                }
+                else
+                {
+                    arrowr.style.visibility = 'hidden';
+                }
+            }
+            function blink()
+            {
+                let arrowl = document.queryselector('#arrowleft');
+                if (arrowl.style.visibility === 'hidden')
+                {
+                    arrowl.style.visibility = 'visible';
+                }
+                else
+                {
+                    arrowl.style.visibility = 'hidden';
+                }
+            }
+            window.setinterval(blinkr, 600);
+            window.setinterval(blinkl, 600);
+        </script>
+        <title>Bootstrap Example</title>
+        <meta charset="utf-8">
+        <meta name = "viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="http://ajax.gooleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item active" aria-current="page">home</li>
+                <li class="breadcrumb-item"><a href="course_description.html">course description</a></li>
+                <li class="breadcrumb-item"><a href="sub_reddit.html">subreddit</a></li>
+                <li class="breadcrumb-item"><a href="about_project.html">about</a></li>
+            </ol>
+        </nav>
+        <img src="cat.png" alt="image of a cat" class="image">
+        <h1 class="bluetext"><b>CS50 CODING BEGINNERS</b></h1>
+        <p class="pinktext">this channel may help <strong>visit</strong>.</p>
+        <div class="text-center">
+            <i class="arrow right" id="arrowright"></i>
+            <button type="button" class="btn btn-outline-info"><a href="https://www.youtube.com/@cs50">youtube</a></button>
+            <i class="arrow left" id="arrowleft"></i>
+        </div>
+        <p><br></p>
+        <div class="container">
+            <div class="jumbotron">
+                <h1>course description</h1>
+                <p>this is cs50 an intoduction course to computer science.<br>visit <a href="https://edx.org">CS50</a></p>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="jumbotron">
+                <h1>subreddit</h1>
+                <p>if you are not sure where to begin, start by asking questions first. <br>visit <a href ="https://www.reddit.com">reddit</a></p>
+            </div>
+        </div>
+    </body>

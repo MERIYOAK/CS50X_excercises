@@ -1,0 +1,11 @@
+sort1 uses: bubble sort.
+
+How do you know?: because it has the lowest omega run time.
+
+sort2 uses: merge sort.
+
+How do you know?: because it has the lowest big o run time.
+
+sort3 uses: selection sort.
+
+How do you know?: because it has the highest omega run time.

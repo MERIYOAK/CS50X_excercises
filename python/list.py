@@ -1,0 +1,26 @@
+friends = ["kevin","jim","lily","meron","chris"]
+lucky_numbers =[3,5,7,8,5,1]
+print(friends)
+print(friends[1])
+print(friends[-1])
+print(friends[-5])
+print(friends[1:])
+print(friends[1:4])
+friends[1] = "holy"
+print(friends[1])
+friends.extend(lucky_numbers)
+print(friends)
+friends.append("kim")
+print(friends)
+friends.insert(1, "kelly")
+print(friends)
+friends.remove("lily") # friends.clear() gives a cleared list fully.
+print(friends)
+print(friends.index("meron"))  # friends.pop()
+print(friends.count("meron"))
+lucky_numbers.sort()
+print(lucky_numbers)
+lucky_numbers.reverse()
+print(lucky_numbers)
+friends2 = friends.copy()
+print(friends2)
